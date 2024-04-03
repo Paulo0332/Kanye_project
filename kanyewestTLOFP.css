@@ -1,0 +1,153 @@
+body{
+    background-color: #f58b57;
+    margin: 19px 0px;
+}
+
+.album-title{
+    position: absolute;
+    z-index: 3;
+    top:16.8%;
+    left: 36.4%;
+    font-size: 3em;
+    letter-spacing: 4px;
+    color: #412517;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.album-title-description{
+    position: absolute;
+    z-index: 3;
+    top: 14.4%;
+    left: 1%;
+    font-size: 1em;
+    color: #29170e;
+}
+
+.album-description{
+    position: absolute;
+    z-index: 3;
+    top: 22.5%;
+    left: 1%;
+    font-size: 1.2em;
+    color: #29170e;
+    max-width:434px;
+    text-align:justify;
+}
+
+.quote-album{
+    position:absolute;
+    z-index: 3;
+    top: 100%;
+    left: 39%;
+    font-weight: 900;
+    font-size: 4em;
+    letter-spacing: 3px;
+    color: #412517;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-shadow: 12px 18px  #522e1d;;
+}
+
+
+.container{
+    position: relative;
+    display:flex;   
+}
+
+.container img {
+    margin: 0px 435px;
+    display: block;
+    width: 1050px;
+    height: 950px;
+    z-index: 2;
+}
+
+.container h1{
+    position: absolute;
+    top: 35%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+    font-size: 21em;
+    z-index: 0;
+    letter-spacing: 3px;
+    color:cadetblue ;
+}
+
+.navbar ul{
+    overflow: hidden;
+    background-color: cadetblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 25px;
+    display: block;
+    font-weight:550 ;
+}
+
+.navbar a:hover{
+    background-color: rgb(61, 109, 110)
+}
+
+.spotify-album-wrapper iframe{
+    position: relative;
+    float: right;
+    margin: 30px 25px;
+    z-index: 1;
+}
+
+.centered-title{
+    text-align: center;   
+}
+
+footer{
+    position: absolute;
+    top: 120%;
+    width: 100%;
+}
+
+.other-albums{
+    background-color: cadetblue;
+    padding: 50px;
+}
+
+.other-albums h1{
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 12px;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: absolute;
+    left: 41.7%;
+    top: 11.5%;
+}
+
+.circle-container {
+    display: flex; /* Enables horizontal arrangement of circles */
+    justify-content: center;
+    position: absolute;
+    left: 32.7%;
+  }
+  
+.circle {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 135px; /* Adjust width as needed */
+    height: 135px; /* Adjust height as needed */
+    margin: 185px 15px; /* Optional spacing between circles */
+    overflow: hidden;
+  }
+  
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
